@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_house"
+        android:icon="@drawable/ic_house"
+        android:title="Home">
+    </item>
+
+
+    <item
+        android:id="@+id/ic_notification"
+        android:icon="@drawable/baseline_notification_important_black_24dp"
+        android:title="Notification">
+    </item>
+
+    <item
+        android:id="@+id/ic_person"
+        android:icon="@drawable/baseline_person_black_24dp"
+        android:title="Person">
+    </item>
+
+</menu>
