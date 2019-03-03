@@ -7,7 +7,9 @@ import android.support.design.widget.BottomNavigationView;
 import android.util.Log;
 import android.view.MenuItem;
 
-import com.example.stockhyoracle.HomeActivity;
+import com.example.stockhyoracle.Home.HomeActivity;
+import com.example.stockhyoracle.Notification.NotificationActivity;
+import com.example.stockhyoracle.Person.PersonActivity;
 import com.example.stockhyoracle.R;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
@@ -32,16 +34,18 @@ public class BottomNavigationViewHelper {
                         context.startActivity(intent1);
                         break;
                     case R.id.ic_notification:
-                        Intent intent2 = new Intent(context, HomeActivity.class);
+                        Intent intent2 = new Intent(context, NotificationActivity.class);
                         context.startActivity(intent2);
                         break;
                     case R.id.ic_person:
-                        Intent intent3 = new Intent(context, HomeActivity.class);
+                        Intent intent3 = new Intent(context, PersonActivity.class);
                         context.startActivity(intent3);
                         break;
+
+
                 }
 
-
+                return false;
             }
         });
     }
